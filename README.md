@@ -1,11 +1,11 @@
-📌 WireMind - Interactive Counter
+📌 ****WireMind - Interactive Counter****
 
-📝 Description
+📝 **Description :**
 
 Application Angular standalone avec un compteur interactif, un contrôle de la vitesse, un historique des instantanés et un support multilingue (EN/FR).
-Elle inclut un sélecteur de langue avec drapeaux et une modale de confirmation personnalisée pour les actions critiques.
+Elle inclut un sélecteur de langue avec drapeaux et un popup de confirmation personnalisée pour les actions critiques.
 
-🚀 Fonctionnalités
+🚀 **Fonctionnalités :**
 
 🔢 Compteur en temps réel avec vitesse ajustable
 
