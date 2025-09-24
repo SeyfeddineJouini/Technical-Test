@@ -2,21 +2,20 @@
 
 📝 **Description :**
 
-Application Angular standalone avec un compteur interactif, un contrôle de la vitesse, un historique des instantanés et un support multilingue (EN/FR).
-Elle inclut un sélecteur de langue avec drapeaux et un popup de confirmation personnalisée pour les actions critiques.
+Standalone Angular application with an interactive counter, speed control, snapshot history, and multilingual support (EN/FR).
+It includes a language selector with flags and a custom confirmation popup for critical actions.
 
 🚀 **Fonctionnalités :**
 
-🔢 Compteur en temps réel avec vitesse ajustable
+🔢 Real-time counter with adjustable speed
 
-📸 Prise d’instantanés et affichage dans un tableau paginé
+📸 Snapshot capture and display in a paginated table
 
-🌍 Sélecteur de langue (anglais/français) avec drapeaux
+🌍 Language selector (English/French) with flags
 
-✅ Confirmation modale personnalisée avant le rafraîchissement de l’historique
+✅ Custom confirmation popup before refreshing history
 
-📂 Traductions via JSON et persistance de la langue choisie dans localStorage
-
+📂 Translations via JSON and persistence of the selected language in localStorage
 
 ## 🚀 How to Run the Project
 
@@ -24,5 +23,25 @@ Follow these steps to set up and run the project locally:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/SeyfeddineJouini/Technical-Test.git
+cd Technical-Test
+````
+
+**2. Install dependencies**
+
+Make sure you have Node.js and npm, then run:
+
+```bash
+npm install
+````
+
+**3. Start the development server**
+
+```bash
+npm start
+````
+
+**4. Open the app in your browser**
+
+The application will be available at:
+👉 http://localhost:4200
