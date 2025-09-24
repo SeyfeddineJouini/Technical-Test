@@ -1,4 +1,4 @@
-📌 ****WireMind - Interactive Counter****
+📌 # WireMind Assessment Project
 
 📝 **Description :**
 
