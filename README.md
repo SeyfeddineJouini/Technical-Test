@@ -1,4 +1,5 @@
 📌 WireMind - Interactive Counter
+
 📝 Description
 
 Application Angular standalone avec un compteur interactif, un contrôle de la vitesse, un historique des instantanés et un support multilingue (EN/FR).
