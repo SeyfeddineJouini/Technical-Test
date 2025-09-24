@@ -1,0 +1,101 @@
+.snapshot-box {
+  margin-top: 2rem;                     /* mt-8 */
+  background-color: #ffffff;            /* bg-white */
+  border: 1px solid #e5e7eb;           /* border border-gray-200 */
+  border-radius: 0.75rem;               /* rounded-xl */
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),
+              0 2px 4px -1px rgba(0,0,0,0.06); /* shadow-md */
+  overflow: hidden;  
+  overflow-x: auto;                   /* overflow-hidden */
+}
+.table tbody {
+  height: calc(2rem * 12);// keeps scroll if more than 10 rows
+}
+.table thead, 
+.table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.table tbody tr {
+  height: 2rem; // or whatever fits your design
+}
+.header {
+  background-color: #f3f4f6;            /* bg-gray-100 */
+  font-size: 1.25rem;                   /* text-xl */
+  font-weight: 700;                     /* font-bold */
+  color: #374151;                       /* text-gray-700 */
+  padding: 1rem;                        /* p-4 */
+  border-bottom: 1px solid #e5e7eb; 
+}
+
+.table {
+  min-width: 100%;                       /* min-w-full */
+  border-collapse: collapse;             /* pour divide-y */
+}
+
+.table thead {
+  background-color: #f9fafb;             /* bg-gray-50 */
+}
+
+.table thead th {
+  padding: 0.75rem 1rem;                 /* px-4 py-3 */
+  text-align: left;                       /* text-left */
+  font-size: 0.75rem;                     /* text-xs */
+  font-weight: 600;                       /* font-semibold */
+  color: #6b7280;                         /* text-gray-500 */
+  text-transform: uppercase;              /* uppercase */
+  letter-spacing: 0.05em;                 /* tracking-wider */
+}
+
+.table tbody {
+  background-color: #ffffff;              /* bg-white */
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #e5e7eb;      /* divide-y divide-gray-200 */
+  transition: background-color 0.2s;      /* transition-colors */
+}
+
+.table tbody tr:hover {
+  background-color: #f9fafb;              /* hover:bg-gray-50 */
+}
+
+.table tbody td {
+  padding: 0.75rem 1rem;                 /* px-4 py-3 */
+  white-space: normal;                    /* whitespace-nowrap */
+  font-size: 0.875rem;                    /* text-sm */
+  color: #1f2937;                         /* text-gray-800 */
+}
+
+.table tbody td:nth-child(2) {
+  font-weight: 500;                        /* font-medium */
+  font-variant-numeric: tabular-nums;      /* tabular-nums */
+}
+
+.table tbody td:nth-child(3) {
+  font-variant-numeric: tabular-nums;      /* tabular-nums */
+}
+
+::ng-deep .ngx-pagination {
+  font-size: 0.9rem;   // shrink text
+  gap: 0.25rem;         // reduce spacing between items
+}
+
+::ng-deep .ngx-pagination li {
+  padding: 0.1rem 0.4rem;   // smaller buttons
+}
+
+::ng-deep .ngx-pagination li.current {
+  font-weight: bold;
+  border-radius: 4px;
+}
+.pagination-wrapper {
+  font-size: 0.8rem;
+  transform: scale(0.9); 
+  display: flex;
+  justify-content: center;
+  margin-top: 0rem;
+}
+
+

@@ -1,0 +1,18 @@
+.language-switcher {
+  display: inline-block;
+}
+
+.language-switcher select {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid #007bff;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  font-size: 14px;
+}
+
+.language-switcher select:hover {
+  background-color: #f0f8ff;
+}

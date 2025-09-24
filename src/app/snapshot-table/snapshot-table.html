@@ -1,0 +1,35 @@
+<div class="snapshot-box">
+  <h3 class="header">{{ translate('snapshotsHistory') }}</h3>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>{{ translate('timestamp') }}</th>
+        <th>{{ translate('counterValue') }}</th>
+        <th>{{ translate('velocity') }}</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngIf="snapshots.length === 0">
+        <td colspan="3" class="text-center">{{ translate('noSnapshots') }}</td>
+      </tr>
+ 
+      <tr *ngFor="let snapshot of snapshots | paginate: { itemsPerPage: 8, currentPage: page }">
+        <td>{{ snapshot.timestamp | date:'short' }}</td>
+        <td>{{ snapshot.counterValue | number:'1.2-2' }}</td>
+        <td>{{ snapshot.velocity }} {{ translate('unitsPerSecond') }}</td>
+      </tr>
+ 
+      <tr *ngFor="let filler of [].constructor(8 - (snapshots | paginate: { itemsPerPage: 8, currentPage: page }).length)">
+        <td>&nbsp;</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="pagination-wrapper">
+    <pagination-controls (pageChange)="page = $event"></pagination-controls>
+  </div>
+</div>

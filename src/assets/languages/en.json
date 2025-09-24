@@ -1,0 +1,17 @@
+{
+  "title": "Interactive Counter",
+  "subtitle": "Adjust the velocity and watch the counter update in real-time. Take snapshots to log the counter's state.",
+  "currentValue": "Current Value",
+  "velocityControl": "Velocity Control",
+  "takeSnapshot": "Take a Snapshot",
+  "refreshHistory": "Refresh History",
+  "snapshotsHistory": "Snapshots History",
+  "timestamp": "Timestamp",
+  "counterValue": "Counter Value",
+  "velocity": "Velocity",
+  "noSnapshots": "No snapshots available",
+  "unitsPerSecond": "units/s",
+  "confirmRefresh" : "Are you sure you want to refresh the history?",
+  "yes": "Yes",
+  "no": "No"
+}

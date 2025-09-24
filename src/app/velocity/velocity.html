@@ -1,0 +1,14 @@
+<div class="velocity-control">
+  <h3 class="title">{{ translate('velocityControl') }}</h3>
+  
+  <div class="controls">
+    <button (click)="velocityChange.emit(-1)" class="btn btn-red">-</button>
+
+    <input type="number"
+           [ngModel]="inputValue()"
+           (ngModelChange)="update.emit(+($event))"
+           class="velocity-input"/>
+
+    <button (click)="velocityChange.emit(1)" class="btn btn-green">+</button>
+  </div>
+</div>

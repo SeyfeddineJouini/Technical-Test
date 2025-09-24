@@ -1,0 +1,17 @@
+{
+  "title": "Compteur Interactif",
+  "subtitle": "Ajustez la vélocité et regardez le compteur se mettre à jour en temps réel. Prenez des snapshots pour enregistrer l'état du compteur.",
+  "currentValue": "Valeur Actuelle",
+  "velocityControl": "Contrôle de Vélocité",
+  "takeSnapshot": "Prendre un Snapshot",
+  "refreshHistory": "Actualiser l'Historique",
+  "snapshotsHistory": "Historique des Snapshots",
+  "timestamp": "Horo datage",
+  "counterValue": "Valeur du Compteur",
+  "velocity": "Vélocité",
+  "noSnapshots": "Aucun snapshot disponible",
+  "unitsPerSecond": "unités/s",
+  "confirmRefresh" : "Êtes vous sure de vouloir rafraichir l'historique?",
+  "yes": "Oui",
+  "no": "Non"
+} 
